@@ -1,0 +1,1 @@
+insert into  ccs_cred_params values (1,'test',10,10,10,10,10,10)

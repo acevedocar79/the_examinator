@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:anzen="http://www.anzen.com.mx/userComponent/types/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Body>
+      <anzen:createUcUserMasterCredentialRequest>
+         <email>a@a.com</email>
+         <password>1234567890</password>
+         <login>yay1234567</login>
+         <settingId>1</settingId>
+      </anzen:createUcUserMasterCredentialRequest>
+   </soap:Body>
+</soap:Envelope>
