@@ -54,6 +54,7 @@
 
 	<modules>
 		<module>examinator_user_component</module>
+		<module>examinator_api_service</module>
 	</modules>
 
 	<build>

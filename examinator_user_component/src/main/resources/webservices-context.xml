@@ -6,13 +6,13 @@
          http://www.springframework.org/schema/beans/spring-beans.xsd
          http://cxf.apache.org/jaxws
          http://cxf.apache.org/schemas/jaxws.xsd">
-         
-    <jaxws:endpoint id="ucAuthenticationWS" implementor="#ucAuthenticationPortType"
-        address="/ucAuthenticationWS">
-    </jaxws:endpoint>
 
-    <jaxws:endpoint id="rulesAdministrationWS" implementor="#rulesAdministrationPortType"
-        address="/rulesAdministrationWS">
-    </jaxws:endpoint>
-    
+	<jaxws:endpoint id="ucAuthenticationWS" implementor="#ucAuthenticationPortType"
+		address="/ucAuthenticationWS">
+	</jaxws:endpoint>
+
+	<jaxws:endpoint id="rulesAdministrationWS" implementor="#rulesAdministrationPortType"
+		address="/rulesAdministrationWS">
+	</jaxws:endpoint>
+
 </beans>
